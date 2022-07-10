@@ -4,17 +4,23 @@
 //A (7,-5, 0); B (1,-1,9) -> 11.53
 
 Console.Clear();
+
 Console.WriteLine("ВВедите точки координат");
 Console.Write("Ax:  ");
 int ax = Convert.ToInt32(Console.ReadLine());
+
 Console.Write("Ay:  ");
 int ay = Convert.ToInt32(Console.ReadLine());
+
 Console.Write("Az:  ");
 int az = Convert.ToInt32(Console.ReadLine());
+
 Console.Write("Bx:  ");
 int bx = Convert.ToInt32(Console.ReadLine());
+
 Console.Write("By:  ");
 int by = Convert.ToInt32(Console.ReadLine());
+
 Console.Write("Bz:  ");
 int bz = Convert.ToInt32(Console.ReadLine());
 
