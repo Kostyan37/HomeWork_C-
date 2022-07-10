@@ -6,7 +6,9 @@
 
 
 Console.Clear();
+
 Console.Write("Введи трёхзначное число: ");
    int num = Convert.ToInt32(Console.ReadLine());
    string stnum = Convert.ToString(num);
+   
 Console.WriteLine("вторая цифра этого числа -> " + stnum[1]);

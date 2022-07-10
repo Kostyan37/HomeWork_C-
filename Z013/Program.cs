@@ -9,6 +9,8 @@ Console.Clear();
 Console.Write("Введи число: ");
 int num = Convert.ToInt32(Console.ReadLine());
 string stnum = Convert.ToString(num);
+
+
 if (stnum.Length > 2)
 {
     Console.WriteLine("третья цифра -> " + stnum[2]);

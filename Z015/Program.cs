@@ -8,7 +8,9 @@ Console.Clear();
 Console.Write("Введи цифру, обозначающую день недели: ");
 int dayNum = Convert.ToInt32(Console.ReadLine());        //Читаем день недели
 
-void CheckingTheDayOfTheWeek (int dayNum) {
+
+
+void CheckingTheDayOfTheWeek (int dayNum) {           // метод 
   if (dayNum == 6 || dayNum == 7) {                   // если 6 или 7 то выхи
   Console.WriteLine("(этот день выходной) -> да");
   }
@@ -17,5 +19,7 @@ void CheckingTheDayOfTheWeek (int dayNum) {
   }
   else Console.WriteLine("(этот день не выходной) -> нет");
 }
+
+
 
 CheckingTheDayOfTheWeek(dayNum);
