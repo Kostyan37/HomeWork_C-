@@ -4,12 +4,19 @@
 // 44 5 78 -> 78
 // 22 3 9 -> 22
 
+
+
+Console.Clear();
+
 Console.Write("ВВедите первое число  ");
 int a = Convert.ToInt32(Console.ReadLine());
+
 Console.Write("ВВедите второе число  ");
 int b = Convert.ToInt32(Console.ReadLine());
+
 Console.Write("ВВедите третье число  ");
 int c = Convert.ToInt32(Console.ReadLine());
+
 int max = a;
 if (max<b) max=b;
 if (max<c) max=c;
