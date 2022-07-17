@@ -20,8 +20,6 @@ for (int i = 0; i < num; i++)
 }
 
 
-
-
 void Znacenie(int[] arr)
 {
     int fix = 0;
