@@ -11,13 +11,15 @@ int num = Convert.ToInt32(Console.ReadLine());           //определени�
 
 
 int[] array = new int[num];                              //формирование массива
-                                                   
-for (int i = 0; i < num; i++)                            
+
+for (int i = 0; i < num; i++)
 {
     Console.ForegroundColor = ConsoleColor.Green;         //раскрасил строки Green
     Console.Write("Введите число: ");
     array[i] = Convert.ToInt32(Console.ReadLine());
 }
+
+
 
 
 void Znacenie(int[] arr)
