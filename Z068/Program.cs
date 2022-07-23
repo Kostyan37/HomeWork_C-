@@ -2,6 +2,8 @@
 
 // m = 3, n = 2 -> A(m,n) = 29
 
+
+
 Console.Clear();
 
 int numM = InputNumbers("Введите число M: ");
@@ -33,5 +35,4 @@ int AkermanFun(int numberN, int numberM)
 }
 
 int NatSum = AkermanFun(numM, numN);
-
 Console.WriteLine($"Функции Аккермана, для чисел A({numM},{numN}) Равна: {NatSum}");

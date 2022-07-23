@@ -6,6 +6,7 @@
 
 Console.Clear();
 
+
 int num = InputNumbers("Задайте число: ");
 
 int InputNumbers(string input)
@@ -14,6 +15,8 @@ int InputNumbers(string input)
   int output = Convert.ToInt32(Console.ReadLine());
   return output;
 }
+
+
 
 NaturalNumber(num);               
 

@@ -15,6 +15,8 @@ int InputNumbers(string input)
     return output;
 }
 
+
+
 int SumNaturalNumber(int numberM, int numberN)
 {
 
